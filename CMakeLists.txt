@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.8.11)
+project (dns2socks)
+add_executable (dns2socks DNS2SOCKS.c)
+find_package (Threads)
+target_link_libraries (dns2socks ${CMAKE_THREAD_LIBS_INIT})
+install (TARGETS dns2socks DESTINATION bin)
