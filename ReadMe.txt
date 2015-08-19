@@ -258,3 +258,14 @@ Changes of Version 1.2 (released on 2012-01-13)
 You can configure the listen address via the command line now. The default
 is 127.0.0.1 instead of 0.0.0.0 of version 1.1. This way the Windows
 firewall doesn't show up.
+
+# Linux Build
+
+cd $source-dir-root
+
+mkdir build 
+
+cd build ; cmake .. ; make
+
+make install 
+
