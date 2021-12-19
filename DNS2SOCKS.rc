@@ -6,8 +6,8 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "DNS2SOCKS.manifest"
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,8,0,0
- PRODUCTVERSION 1,8,0,0
+ FILEVERSION 2,1,0,0
+ PRODUCTVERSION 2,1,0,0
  FILEFLAGSMASK 0x3FL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -22,10 +22,10 @@ BEGIN
     BEGIN
         BLOCK "040904B0"
         BEGIN
-            VALUE "FileDescription", "Tunnels DNS requests via SOCKS"
-            VALUE "FileVersion", "1.8.0.0"
+            VALUE "FileDescription", "Tunnels DNS requests via SOCKS or HTTP"
+            VALUE "FileVersion", "2.1.0.0"
             VALUE "OriginalFilename", "DNS2SOCKS.exe"
-            VALUE "ProductVersion", "1.8.0.0"
+            VALUE "ProductVersion", "2.1.0.0"
         END
     END
     BLOCK "VarFileInfo"
